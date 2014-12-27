@@ -1,0 +1,167 @@
+a:hover, a:focus, a:visited, a:active {
+    text-decoration: none;
+}
+.main {
+    margin-top: 10px;
+}
+hr#fit {
+    margin:5px 0 0 0;
+}
+.navbar-active {
+    border-bottom: 5px solid rgba(0, 117, 231, 0.5);
+}
+.post-header {
+    display: block;
+    overflow: auto;
+}
+.post-header a:link {
+    margin:0px 10px;
+}
+.btn-left-panel, .btn-right-panel {
+    display: inline;
+    padding: 5px;
+    text-align:center;
+    color: rgba(0,0,0, .65);
+    border-right: solid 1px lightgray;
+    border-left: solid 1px lightgray;
+}
+.post-header > span#name {
+    font-size: .75em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0088bb;
+}
+.list-group-item > span#name {
+    font-weight: bold;
+    cursor: pointer;
+    color: #0088bb;
+}
+.post-body {
+    display: block;
+    overflow: auto;
+    padding: 10px;
+}
+.post-footer {
+    display: block;
+    width: inherit;
+    margin: 0 auto;
+}
+.post-footer .btn-group {
+    width: inherit;
+
+}
+.post-photo {
+    width: 50px;
+    height: auto;
+    padding: 5px;
+}
+
+.margin-top-sm {
+    margin-top: 5px;
+}
+.visible {
+    display: block;
+}
+#onlineList {
+    overflow-y: auto;
+}
+.ui-panel-inner {
+    padding: 0px;
+}
+#onlineList .list-group-item {
+    border-top: solid 1px gray;
+}
+#onlineList .list-group-item img {
+    height: 35px;
+    width: 35px;
+    display: inline-table;
+}
+#onlineList .list-group-item #name {
+    display: inline-table;
+    width: 170px;
+}
+#onlineList .list-group-item i {
+    font-size: 10px;
+    color: green;
+}
+.side-panel-header {
+    display: block;
+    background-color: #00a0df;
+    text-align: center;
+    padding: 10px 0px;
+    color:white;
+    height: 5%;
+}
+#onlineUsers > .list-group-item {
+    border-radius: 0px;
+    padding: 0 5px;
+}
+.post-clicked {
+    color: #1dc116;
+}
+#divLoginSection {
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    transform: translateY(10%);
+}
+#btnLogin {
+    width:100%;
+    padding: 10px 0;
+}
+#lightbox {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.myModal {
+    position: fixed;
+    top: 50%;
+    background-color: white;
+    z-index: 99999;
+    height: inherit;
+    width: inherit;
+    overflow-x: auto;
+}
+.timeago {
+    color: gray;
+    font-size: .75em;
+}
+#profile-picture {
+    margin: 0 10px 0 0 ;
+    width: 5em;
+    height: auto;
+}
+#profile-name {
+    font-size: 1.25em;
+}
+
+#statusPhotos {
+    display: block;
+    overflow: auto;
+}
+
+.padding-sm {
+    padding: 2xp;
+}
+#notification {
+    height: 100%;
+    width: auto;
+    overflow: auto;
+}
+#notificationsList > img {
+    width: 25%;
+}
+.text-noti-msg {
+    width: 72%;
+}
+.arrow i {
+    color: #38c;
+}
+input.btn-file {
+    width: 100px;
+    height: auto;
+}
