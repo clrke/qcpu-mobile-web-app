@@ -73,3 +73,7 @@ Route::group(['before'=>'auth'], function(){
 
 });
 
+Route::get('/angularjs', function ()
+{
+    return View::make('angularSample');
+});
